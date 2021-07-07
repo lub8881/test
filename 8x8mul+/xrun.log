@@ -1,0 +1,15 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Jul 05, 2021 at 11:48:40 KST
+xrun
+	-access +rwc
+	-gui
+	top8x8.v
+	top8x8_tb.v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools/xcelium/files/xmsimrc
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	19.09-s010: Exiting on Jul 05, 2021 at 13:02:01 KST  (total: 01:13:21)

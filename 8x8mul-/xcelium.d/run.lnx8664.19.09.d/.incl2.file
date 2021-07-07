@@ -1,0 +1,12 @@
+control.v
+/home/socmgr/juan/8x8mul-/control.v
+mux.v
+/home/socmgr/juan/8x8mul-/mux.v
+multiplier.v
+/home/socmgr/juan/8x8mul-/multiplier.v
+shift.v
+/home/socmgr/juan/8x8mul-/shift.v
+adder16.v
+/home/socmgr/juan/8x8mul-/adder16.v
+register.v
+/home/socmgr/juan/8x8mul-/register.v

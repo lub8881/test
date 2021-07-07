@@ -1,0 +1,51 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Jul 01, 2021 at 15:44:11 KST
+xrun
+	-access +rwc
+	-gui
+	top8x8.v
+	top8x8_tb.v
+Recompiling... reason: file './top8x8_tb.v' is newer than expected.
+	expected: Thu Jul  1 15:40:28 2021
+	actual:   Thu Jul  1 15:44:08 2021
+file: top8x8_tb.v
+	module worklib.top8x8_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top8x8_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.top8x8_tb:v <0x2c970474>
+			streams:  10, words:  5272
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 9       8
+		Registers:              19      18
+		Scalar wires:            6       -
+		Vectored wires:         11       -
+		Always blocks:           9       8
+		Initial blocks:          5       5
+		Pseudo assignments:      5       5
+		Simulation timescale:  1ns
+	Writing initial simulation snapshot: worklib.top8x8_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm top8x8_tb.top.a top8x8_tb.top.addout_regin top8x8_tb.top.amux_mul top8x8_tb.top.answer top8x8_tb.top.b top8x8_tb.top.bmux_mul top8x8_tb.top.clk top8x8_tb.top.clk_ena top8x8_tb.top.done top8x8_tb.top.mul_shi top8x8_tb.top.regout_addin top8x8_tb.top.rst top8x8_tb.top.sela top8x8_tb.top.selb top8x8_tb.top.shi_add top8x8_tb.top.shift_sel top8x8_tb.top.st
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 200 NS + 0
+./top8x8_tb.v:65 initial #200 $finish;
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	19.09-s010: Exiting on Jul 01, 2021 at 15:46:45 KST  (total: 00:02:34)

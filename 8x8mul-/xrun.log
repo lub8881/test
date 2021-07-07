@@ -1,0 +1,24 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Jul 05, 2021 at 13:17:46 KST
+xrun
+	-access +rwc
+	-gui
+	top.v
+	top_tb.v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm top_tb.top.a top_tb.top.addout_regin top_tb.top.amux_mul top_tb.top.answer top_tb.top.b top_tb.top.bmux_mul top_tb.top.clk top_tb.top.clk_ena top_tb.top.done top_tb.top.mul_shi top_tb.top.regout_addin top_tb.top.rst top_tb.top.sela top_tb.top.selb top_tb.top.shi_add top_tb.top.shift_sel top_tb.top.st
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 200 NS + 0
+./top_tb.v:63 initial #200 $finish;
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	19.09-s010: Exiting on Jul 05, 2021 at 13:54:08 KST  (total: 00:36:22)

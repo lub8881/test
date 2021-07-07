@@ -1,0 +1,23 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(01Jul2021:10:00:37):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s2::(01Jul2021:10:02:06):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s3::(01Jul2021:10:07:04):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s4::(01Jul2021:10:09:50):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s5::(01Jul2021:11:15:31):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s6::(01Jul2021:11:23:50):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s7::(01Jul2021:13:47:44):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s8::(01Jul2021:13:53:06):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s9::(01Jul2021:13:56:50):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s10::(01Jul2021:14:01:12):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s11::(01Jul2021:14:10:29):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s12::(01Jul2021:14:18:42):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s13::(01Jul2021:14:21:52):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s14::(01Jul2021:14:26:56):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s15::(01Jul2021:14:35:23):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s16::(01Jul2021:15:11:02):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s17::(01Jul2021:15:12:45):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s18::(01Jul2021:15:40:54):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )
+s19::(01Jul2021:15:44:11):( xrun -access +rwc -gui top8x8.v top8x8_tb.v )

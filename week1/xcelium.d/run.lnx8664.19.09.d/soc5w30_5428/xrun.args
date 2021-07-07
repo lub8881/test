@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-access
++rwc
+-gui
+adder_tb.v
+adder_tb.v

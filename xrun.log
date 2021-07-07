@@ -1,0 +1,10 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Jul 05, 2021 at 10:31:14 KST
+xrun
+	-access +rwc
+	-gui
+	top8x8.v
+	top8x8_tb.v
+xrun: *E,FILEMIS: Cannot find the provided file top8x8.v.
+xrun: *E,FILEMIS: Cannot find the provided file top8x8_tb.v.
+TOOL:	xrun(64)	19.09-s010: Exiting on Jul 05, 2021 at 10:31:15 KST  (total: 00:00:01)

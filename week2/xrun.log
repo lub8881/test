@@ -1,0 +1,40 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Jun 30, 2021 at 16:33:27 KST
+xrun
+	-access +rwc
+	-gui
+	cont.v
+	cont_tb.v
+file: cont.v
+   count <= idle;
+       |
+xmvlog: *E,WANOTL (fsm.v,19|7): A net is not a legal lvalue in this context [9.3.1(IEEE)].
+(`include file: fsm.v line 88, file: cont.v line 2)
+   count <= next_count;
+       |
+xmvlog: *E,WANOTL (fsm.v,21|7): A net is not a legal lvalue in this context [9.3.1(IEEE)].
+(`include file: fsm.v line 88, file: cont.v line 2)
+	module worklib.fsm:v
+		errors: 2, warnings: 0
+ else(st==1)
+     |
+xmvlog: *E,NOTSTT (cont.v,24|5): expecting a statement [9(IEEE)].
+always @ (posedge clk or negedge rst)
+     |
+xmvlog: *E,NOTSTT (cont.v,27|5): expecting a statement [9(IEEE)].
+	module worklib.cont:v
+		errors: 2, warnings: 0
+file: cont_tb.v
+initial
+      |
+xmvlog: *E,NOTSTT (cont_tb.v,33|6): expecting a statement [9(IEEE)].
+initial #100 &finish;
+             |
+xmvlog: *E,NOTSTT (cont_tb.v,38|13): expecting a statement [9(IEEE)].
+	module worklib.cont_tb:v
+		errors: 2, warnings: 0
+xmvlog: *W,NOTOPL: no top-level unit found, must have recursive instances.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	19.09-s010: Exiting on Jun 30, 2021 at 16:33:27 KST  (total: 00:00:00)

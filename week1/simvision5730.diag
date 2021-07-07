@@ -1,0 +1,187 @@
+*** Message Type: info ***
+When: Wed Jun 23 05:20:19 PM KST 2021
+SimVision started.
+Version: TOOL:  simvision(64)   19.09-s010
+User: socmgr
+Host: soc5w30.net
+Platform: Linux/x86_64/3.10.0-957.el7.x86_64
+Started: Wed Jun 23 05:20:19 PM KST 2021
+Command: /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:soc5w30.net:34586 -64BIT -nocopyright
+Work Directory: /home/socmgr/juan/week1
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:19 PM KST 2021
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:21 PM KST 2021
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:22 PM KST 2021
+Connect to Simulator
+      Design: worklib.adder_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL: xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Wed Jun 23 05:20:18 PM KST 2021
+  Process ID: 5719
+   Directory: /home/socmgr/juan/week1
+     Command: xrun -access +rwc -gui adder.v adder_tb.v
+
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:22 PM KST 2021
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:34 PM KST 2021
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:37 PM KST 2021
+Exit XM-Sim: user
+      Design: worklib.adder_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL: xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Wed Jun 23 05:20:18 PM KST 2021
+  Process ID: 5719
+   Directory: /home/socmgr/juan/week1
+     Command: xrun -access +rwc -gui adder.v adder_tb.v
+
+ 
+*** Message Type: error ***
+When: Wed Jun 23 05:20:37 PM KST 2021
+XM-Sim Crashed:
+      Design: worklib.adder_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL: xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Wed Jun 23 05:20:18 PM KST 2021
+  Process ID: 5719
+   Directory: /home/socmgr/juan/week1
+     Command: xrun -access +rwc -gui adder.v adder_tb.v
+      Design: worklib.adder_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Wed Jun 23 05:20:18 PM KST 2021
+  Process ID: 5719
+   Directory: /home/socmgr/juan/week1
+     Command: xrun -access +rwc -gui adder.v adder_tb.v
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: error ***
+When: Wed Jun 23 05:20:44 PM KST 2021
+can't define "::savescript::_crashRecovery": parent namespace doesn't exist
+    while executing
+"variable ::savescript::_crashRecovery"
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_saveStates" body line 3)
+    invoked from within
+"_saveStates"
+    ("enter" arm line 2)
+    invoked from within
+"switch -- $choice1 {
+    restart {
+          ::savescript::init
+     set ::savescript::_crash2restartSim 1
+          _saveStates
+            set ::savescript::_crash2rest..."
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_dialogchoice" body line 5)
+    invoked from within
+"::.simRecoveryDialog0 _dialogchoice {enter post processing}"
+    (in namespace inscope "::cwidgets::Dialog" script line 1)
+    invoked from within
+"namespace inscope ::cwidgets::Dialog {::.simRecoveryDialog0 _dialogchoice {enter post processing}}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $cmd"
+    (procedure "Button::invoke" line 18)
+    invoked from within
+"Button::invoke $but"
+    (procedure "ButtonBox::invoke" line 4)
+    invoked from within
+"ButtonBox::invoke .simRecoveryDialog0-dialog.bbox [Widget::getoption .simRecoveryDialog0-dialog -cancel]"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Wed Jun 23 05:20:44 PM KST 2021
+can't define "::savescript::_crashRecovery": parent namespace doesn't exist
+    while executing
+"variable ::savescript::_crashRecovery"
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_saveStates" body line 3)
+    invoked from within
+"_saveStates"
+    ("enter" arm line 2)
+    invoked from within
+"switch -- $choice1 {
+    restart {
+          ::savescript::init
+     set ::savescript::_crash2restartSim 1
+          _saveStates
+            set ::savescript::_crash2rest..."
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_dialogchoice" body line 5)
+    invoked from within
+"::.simRecoveryDialog0 _dialogchoice {enter post processing}"
+    (in namespace inscope "::cwidgets::Dialog" script line 1)
+    invoked from within
+"namespace inscope ::cwidgets::Dialog {::.simRecoveryDialog0 _dialogchoice {enter post processing}}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $cmd"
+    (procedure "Button::invoke" line 18)
+    invoked from within
+"Button::invoke $but"
+    (procedure "ButtonBox::invoke" line 4)
+    invoked from within
+"ButtonBox::invoke .simRecoveryDialog0-dialog.bbox [Widget::getoption .simRecoveryDialog0-dialog -cancel]"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Wed Jun 23 05:20:45 PM KST 2021
+can't define "::savescript::_crashRecovery": parent namespace doesn't exist
+    while executing
+"variable ::savescript::_crashRecovery"
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_saveStates" body line 3)
+    invoked from within
+"_saveStates"
+    ("enter" arm line 2)
+    invoked from within
+"switch -- $choice1 {
+    restart {
+          ::savescript::init
+     set ::savescript::_crash2restartSim 1
+          _saveStates
+            set ::savescript::_crash2rest..."
+    (object "::.simRecoveryDialog0" method "::SimRecoveryDialog::_dialogchoice" body line 5)
+    invoked from within
+"::.simRecoveryDialog0 _dialogchoice {enter post processing}"
+    (in namespace inscope "::cwidgets::Dialog" script line 1)
+    invoked from within
+"namespace inscope ::cwidgets::Dialog {::.simRecoveryDialog0 _dialogchoice {enter post processing}}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $cmd"
+    (procedure "Button::invoke" line 18)
+    invoked from within
+"Button::invoke $but"
+    (procedure "ButtonBox::invoke" line 4)
+    invoked from within
+"ButtonBox::invoke .simRecoveryDialog0-dialog.bbox [Widget::getoption .simRecoveryDialog0-dialog -cancel]"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Wed Jun 23 05:20:45 PM KST 2021
+SimVision Exit.
+ 

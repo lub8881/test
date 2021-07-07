@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-access
++rwc
+-gui
+top8x8.v
+top8x8_tb.v

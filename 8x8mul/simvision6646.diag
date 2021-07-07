@@ -1,0 +1,129 @@
+*** Message Type: info ***
+When: Thu Jul 01 10:09:50 AM KST 2021
+SimVision started.
+Version: TOOL:  simvision(64)   19.09-s010
+User: socmgr
+Host: soc5w30.net
+Platform: Linux/x86_64/3.10.0-957.el7.x86_64
+Started: Thu Jul 01 10:09:50 AM KST 2021
+Command: /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:soc5w30.net:58117 -64BIT -nocopyright
+Work Directory: /home/socmgr/juan/week2home
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:09:51 AM KST 2021
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:09:53 AM KST 2021
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:09:54 AM KST 2021
+Connect to Simulator
+      Design: worklib.top8x8_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Thu Jul 01 10:09:50 AM KST 2021
+  Process ID: 6635
+   Directory: /home/socmgr/juan/week2home
+     Command: xrun -access +rwc -gui top8x8.v top8x8_tb.v
+
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:09:54 AM KST 2021
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:10:03 AM KST 2021
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: error ***
+When: Thu Jul 01 10:10:19 AM KST 2021
+zoomrect: no current page
+    while executing
+"runBusy {
+        #
+        # Execute the "do" script
+        #
+        set _buffer ""
+        uplevel $parts(redo)
+        set parts(redo) $_buffer
+
+..."
+    (object "::manager3" method "::undo::Manager::action" body line 65)
+    invoked from within
+"$_undo action "Zoom Rectangle" {
+      do {
+           1-DO> set [itcl::scope _skipUndo] 1
+            1-DO> [itcl::code $this _getSchemState] =>OLDSTATE
+             1-DO> [itcl::code ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_rectZoom" body line 3)
+    invoked from within
+"_rectZoom $W $x $y $X $Y"
+    ("stroke-se-1" arm line 2)
+    invoked from within
+"switch $T {
+     "ctrl-stroke-1"  {
+         #
+      # This is a control-drag, 
+     # Get the objects inside this rectangle.
+       #
+      set instList [$W pick..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_bindCallBack" body line 4)
+    invoked from within
+"::.schematicWindow0 _bindCallBack .schematicWindow0.work.user.scrollframe.schematic.nlview stroke-se-1 310 171 580 325 {}"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _bindCallBack .schematicWindow0.work.user.scrollframe.schematic.nlview stroke-se-1 310 171 58..."
+ 
+*** Message Type: error ***
+When: Thu Jul 01 10:10:19 AM KST 2021
+zoomrect: no current page
+    while executing
+"$W zoomrect $x $y $X $Y"
+    (object "::.schematicWindow0" method "::SchematicWindow::_rectZoom" body line 26)
+    invoked from within
+"_rectZoom $W $x $y $X $Y"
+    ("stroke-se-1" arm line 2)
+    invoked from within
+"switch $T {
+     "ctrl-stroke-1"  {
+         #
+      # This is a control-drag, 
+     # Get the objects inside this rectangle.
+       #
+      set instList [$W pick..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_bindCallBack" body line 4)
+    invoked from within
+"::.schematicWindow0 _bindCallBack .schematicWindow0.work.user.scrollframe.schematic.nlview stroke-se-1 154 78 590 371 {}"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _bindCallBack .schematicWindow0.work.user.scrollframe.schematic.nlview stroke-se-1 154 78 590..."
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:10:33 AM KST 2021
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 10:16:03 AM KST 2021
+Create schematic window: "Schematic Tracer 2"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 11:13:43 AM KST 2021
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 11:14:08 AM KST 2021
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 11:15:24 AM KST 2021
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 11:15:28 AM KST 2021
+SimVision Exit.
+ 

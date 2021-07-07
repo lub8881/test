@@ -1,0 +1,16 @@
+1624432547 /home/socmgr/juan/week1/adder.v
+1624606208 /home/socmgr/juan/week1/pattern_tb.v
+1624606868 /home/socmgr/juan/week1/pattern.v
+1624520427 /home/socmgr/juan/week1/b16reg_tb.v
+1624512081 /home/socmgr/juan/week1/lshifter.v
+1624586427 /home/socmgr/juan/week1/way5counter.v
+1624433359 /home/socmgr/juan/week1/adder_tb.v
+1624516465 /home/socmgr/juan/week1/b8counter_tb.v
+1624586171 /home/socmgr/juan/week1/way5counter_tb.v
+1624501111 /home/socmgr/juan/week1/ifelse_tb.v
+1624504222 /home/socmgr/juan/week1/b4mux.v
+1624519888 /home/socmgr/juan/week1/b16reg.v
+1624509441 /home/socmgr/juan/week1/b4mux_tb.v
+1624500602 /home/socmgr/juan/week1/ifelse.v
+1624516568 /home/socmgr/juan/week1/b8counter.v
+1624512317 /home/socmgr/juan/week1/lshifter_tb.v

@@ -1,0 +1,10 @@
+s1(30Jun2021:15:39:22):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s2(30Jun2021:15:41:16):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s3(30Jun2021:15:52:43):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s4(30Jun2021:15:55:06):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s5(30Jun2021:15:56:31):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s6(30Jun2021:16:10:54):  xrun -access +rwc -gui controller.v cont_tb.v 
+s7(30Jun2021:16:12:49):  xrun -access +rwc -gui controller.v cont_tb.v 
+s8(30Jun2021:16:17:27):  xrun -access +rwc -gui controller.v cont_tb.v 
+s9(30Jun2021:16:33:22):  xrun -access +rwc -gui controller.v cont_tb.v 
+s10(30Jun2021:16:33:27):  xrun -access +rwc -gui cont.v cont_tb.v 

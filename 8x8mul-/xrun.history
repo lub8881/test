@@ -1,0 +1,6 @@
+s1(05Jul2021:10:13:23):  xrun -access +rwc -gui top.v top_tb.v 
+s2(05Jul2021:10:27:26):  xrun -access +rwc -gui top.v top_tb.v 
+s3(05Jul2021:11:34:16):  xrun -access +rwc -gui top.v top_tb.v 
+s4(05Jul2021:13:02:28):  xrun -access +rwc -gui top.v top_tb.v 
+s5(05Jul2021:13:17:43):  xrun -access +rwc -gui top8x8.v top8x8_tb.v 
+s6(05Jul2021:13:17:46):  xrun -access +rwc -gui top.v top_tb.v 

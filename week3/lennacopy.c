@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "bitmap.h"
+
+int main()
+{
+
+	FILE* fpBmp = fopen("lenna.bmp", "rb") ;
+	FILE* fp    = fopen("lenncp.bmp","wb") ;
+	BITMAPFILEHEADER fileHeader;
+	BITMAPINFOHEADER infoHeader;
+
+	fread(&fileHeader,sizeof(BITMAPFILEHEADER), 1, fpBmp);//buffer search
+        fread(&infoHeader,sizeof(BITMAPINFOHEADER), 1, fpBmp);// int fflush(FILE* stream); reset buffer
+							      // fflush(stdout);	
+	
+        printf("%x\n",infoHeader.biSize);
+        printf("%d\n",infoHeader.biWidth);
+        printf("%d\n",infoHeader.biHeight);
+        printf("%d\n",infoHeader.biPlanes);
+        printf("%d\n",infoHeader.biBitCount);
+
+	int size = infoHeader.biWidth * infoHeader.biHeight * infoHeader.biBitCount / 8;
+	unsigned char* data = (unsigned char*)malloc(size);
+	fread(data,size, 1, fpBmp);
+		
+	fwrite(&fileHeader,sizeof(BITMAPFILEHEADER), 1, fp);
+	fwrite(&infoHeader,sizeof(BITMAPINFOHEADER), 1, fp);
+	fwrite(data,sizeof(unsigned char), size , fp);
+
+
+	fclose(fpBmp);
+	free(data);
+
+	return 0;
+	
+	
+
+
+}

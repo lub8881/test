@@ -1,0 +1,83 @@
+*** Message Type: info ***
+When: Thu Jul 01 02:26:57 PM KST 2021
+SimVision started.
+Version: TOOL:  simvision(64)   19.09-s010
+User: socmgr
+Host: soc5w30.net
+Platform: Linux/x86_64/3.10.0-957.el7.x86_64
+Started: Thu Jul 01 02:26:57 PM KST 2021
+Command: /edatools/Cadence/XCELIUM/XCELIUM19.09.010/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:soc5w30.net:60915 -64BIT -nocopyright
+Work Directory: /home/socmgr/juan/week2home
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:26:58 PM KST 2021
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:27:01 PM KST 2021
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:27:03 PM KST 2021
+Connect to Simulator
+      Design: worklib.top8x8_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       19.09-s010
+        User: socmgr
+        Host: soc5w30.net
+Time Started: Thu Jul 01 02:26:57 PM KST 2021
+  Process ID: 23562
+   Directory: /home/socmgr/juan/week2home
+     Command: xrun -access +rwc -gui top8x8.v top8x8_tb.v
+
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:27:04 PM KST 2021
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:27:08 PM KST 2021
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:27:45 PM KST 2021
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:35:00 PM KST 2021
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:35:01 PM KST 2021
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:35:06 PM KST 2021
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: error ***
+When: Thu Jul 01 02:35:06 PM KST 2021
+invalid command name ".watchList0.bottom.statusbar.indicator-autosave.autosave"
+    while executing
+".watchList0.bottom.statusbar.indicator-autosave.autosave configure -image image269"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Jul 01 02:35:06 PM KST 2021
+invalid command name ".watchList0.bottom.statusbar.indicator-autosave.autosave"
+    while executing
+".watchList0.bottom.statusbar.indicator-autosave.autosave configure -image image269"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Jul 01 02:35:06 PM KST 2021
+invalid command name ".watchList0.bottom.statusbar.indicator-autosave.autosave"
+    while executing
+".watchList0.bottom.statusbar.indicator-autosave.autosave configure -image image269"
+    ("after" script)
+ 
+*** Message Type: info ***
+When: Thu Jul 01 02:35:20 PM KST 2021
+SimVision Exit.
+ 
